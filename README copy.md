@@ -63,26 +63,35 @@ https://www.ibm.com/watson/developercloud/personality-insights/api/v2/
 
 
 <h1 align="center"> Wireframes  </h1>
-
-<h2 align="center"> Login  </h2> 
- 
-![](http://i.imgur.com/hatCEZq.png)
-        
- <h2 align="center"> Sign Up  </h2> 
-  
-![](http://i.imgur.com/ju1HNdW.png)
  
  <h2 align="center"> Home  </h2> 
  
 ![](http://i.imgur.com/rdRjusn.png)
  <h2 align="center"> Results  </h2> 
+
  
-![](http://i.imgur.com/FFlEOJ7.png)
- <h2 align="center"> Profile  </h2> 
- 
-![](http://i.imgur.com/eHHd6mw.png)
+ Instructions for running app:
+
+ in views install:
+
+ npm install react-chartjs-2 --save
+ npm install cors
+ npm install axios
+
+ in server intall:
+
+ npm install pg-promise
+ npm install express
+ npm install body-parser
+ npm install axios
+ npm install createdb tones
+ psql -d tones -f db/seeds.sql
+
+ Link to obtain password and key for Watson:
+
+ https://www.ibm.com/watson/developer/
 
 
 
 
-# server-final-project
+
